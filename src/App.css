@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-violet{
+  background-color: blueviolet;
+  min-height: 100vh;
+
+}
+.white-widget{
+  background-color: white;
+  border-radius: 10px;
+  min-height: 100%;
+  padding: 6vh;
+}
+.working-row{
+  padding-top: 12vh;
+  
+}
+.inputBox{
+  border: none!important;
+  color: #b4b4b5!important;
+  margin-bottom: 1vh;
+}
+.crossBox span{
+  color: #b4b4b5!important;
+  border: none!important;
+}
+.inputBoxGroup{
+  margin-bottom: 2vh;
+}
+.checkboxInput{
+  margin-bottom: 2vh; 
+  color: #b4b4b5!important;
+}
+.navbar-text{
+  border: 1px solid #e9ecef;
+  padding: 3vh;
+  border-radius: 1vh;
+}
+.navbar-brand{
+  color:rgb(140 70 226)!important;
+}
+.navbar-collapse{
+justify-content: flex-end;
+}
+.noSelected{
+  color: #b4b4b5!important;
+  text-align: center;
+}
+.white-widget-flex{
+  background-color: white;
+  border-radius: 10px;
+  min-height: 100%;
+  padding: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
