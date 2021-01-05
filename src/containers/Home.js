@@ -59,10 +59,10 @@ const Home = (props) => {
                     </div>
                 </Col>
                 <Col sm="12" md="6">
-               
+                <div className="white-widget">
                     
                     {props.selectedData.length > 0 ?  props.selectedData.map((data, index) => (
-                        <div className="white-widget">
+                        
                             <div>
 
                                 <FormGroup>
@@ -88,11 +88,13 @@ const Home = (props) => {
                                 </FormGroup>
 
                             </div>
-                            </div>
+                          
                         ))
                         :
                         <div className="white-widget-flex"><div className="noSelected"> No Value Selected</div></div>
                         }
+
+</div>
                    
                 </Col>
             </Row>
